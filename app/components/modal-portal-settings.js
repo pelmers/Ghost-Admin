@@ -1,5 +1,5 @@
-import ModalComponent from '@tryghost/admin/components/modal-base';
-import copyTextToClipboard from '@tryghost/admin/utils/copy-text-to-clipboard';
+import ModalComponent from 'ghost-admin/components/modal-base';
+import copyTextToClipboard from 'ghost-admin/utils/copy-text-to-clipboard';
 import {action, computed} from '@ember/object';
 import {htmlSafe} from '@ember/template';
 import {inject as service} from '@ember/service';
